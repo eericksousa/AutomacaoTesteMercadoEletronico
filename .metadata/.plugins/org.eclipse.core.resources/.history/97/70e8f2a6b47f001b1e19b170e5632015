@@ -1,0 +1,17 @@
+package br.com.teste.mercadoeletronico.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import br.com.teste.mercadoeletronico.config.BasePage;
+
+public class HomePage extends BasePage {
+	
+	
+	private By logoHomePage = By.xpath("//*[@id='header_logo']");
+	
+	public getHomePage() {
+		return logoHomePage;
+	}
+
+}

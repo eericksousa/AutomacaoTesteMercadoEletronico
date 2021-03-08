@@ -1,0 +1,7 @@
+package br.com.teste.mercadoeletronico.logics;
+
+public class LoginLogic extends BaseTest{
+	
+	
+
+}

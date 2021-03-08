@@ -1,0 +1,56 @@
+package br.com.teste.mercadoeletronico.steps;
+
+
+import br.com.teste.mercadoeletronico.logics.HomePageLogic;
+import br.com.teste.mercadoeletronico.logics.LoginLogic;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Quando;
+
+public class MercadoEletronicoSteps {
+	
+	public void MercadoEletronico () {
+		LoginLogic loginLogic = new LoginLogic();
+		HomePageLogic hpLogic = new HomePageLogic();
+	}
+	
+	
+	@Dado("que estou na pagina inicial do site")
+	public void que_estou_na_pagina_inicial_do_site() {
+		
+		
+		//Driver.abrirNavegador();
+	   // Driver.setUrl("http://automationpractice.com/index.php");
+	    //Assert.assertTrue("My Store", condition);
+	}
+
+	@Quando("clico em Sign In")
+	public void clico_em_sign_in() {
+	}
+
+	@Quando("clico no campo de Email address")
+	public void clico_no_campo_de_email_address() {
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("digito o email {string} para login")
+	public void digito_o_email_para_login(String string) {
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("digito a senha {string} para login")
+	public void digito_a_senha_para_login(String string) {
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Entao("valido a pagina inicial com sucesso")
+	public void valido_a_pagina_inicial_com_sucesso() {
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Entao("valido a mensagem de login incorreto")
+	public void valido_a_mensagem_de_login_incorreto() {
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}

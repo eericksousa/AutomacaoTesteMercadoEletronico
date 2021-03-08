@@ -1,0 +1,37 @@
+package br.com.teste.mercadoeletronico.core;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Driver {
+	
+	private static WebDriver driver;
+	private static WebDriverWait wait;
+
+	public static void abrirNavegador() {
+		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+		ChromeOptions options = new ChromeOptions();
+		options.setHeadless(false);
+
+		driver = new ChromeDriver(options);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		driver.manage().window().maximize();
+	}
+	
+	public static void fechaNavegador() {
+		driver.quit();
+	}
+
+	public static WebDriver getDriver() {
+		return driver;
+	}
+
+	public static void setUrl(String url) {
+		driver.get(url);
+	}
+	
+}

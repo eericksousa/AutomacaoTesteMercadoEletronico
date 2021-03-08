@@ -1,0 +1,12 @@
+package br.com.teste.mercadoeletronico.logics;
+
+import br.com.teste.mercadoeletronico.config.Driver;
+import br.com.teste.mercadoeletronico.config.Utils;
+
+public class LoginLogic extends Utils {
+
+	
+	public void digitaSite(String url)
+    Driver.setUrl("http://automationpractice.com/index.php");	
+
+}

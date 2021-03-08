@@ -1,0 +1,17 @@
+package br.com.teste.mercadoeletronico.logics;
+
+import static org.junit.Assert.assertEquals;
+
+import br.com.teste.mercadoeletronico.config.Utils;
+import br.com.teste.mercadoeletronico.pages.HomePagePage;
+
+public class LoginLogic extends Utils {
+
+	HomePagePage hpPage = new HomePagePage();
+	
+	
+	public void validaPaginaInicial() {
+		Assert.assertEquals("My Store", hpPage.getHomePage());
+	
+	}
+}

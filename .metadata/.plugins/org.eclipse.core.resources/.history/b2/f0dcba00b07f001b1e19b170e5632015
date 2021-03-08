@@ -1,0 +1,10 @@
+package br.com.teste.mercadoeletronico.config;
+
+public class Utils extends Driver{
+	
+	public Utils (WebDriver driver) {
+		getDriver();
+	}
+	
+
+}

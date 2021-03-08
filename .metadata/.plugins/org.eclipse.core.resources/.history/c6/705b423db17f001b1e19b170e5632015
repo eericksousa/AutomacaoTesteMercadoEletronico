@@ -1,0 +1,36 @@
+package br.com.teste.mercadoeletronico.config;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+public class Utils extends Driver{
+	
+	private WebElement webElement = null;
+	private WebElement element = null;
+	
+	public Utils (WebDriver driver) {
+		getDriver();
+	}
+	
+	public static WebElement waitVisibleElement(By by) {
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+	}
+
+	public static void waitInvisibilityElemnt(By by) {
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
+	}
+
+	public static WebElement waitClickableElement(By by) {
+		return wait.until(ExpectedConditions.elementToBeClickable(by));
+	}
+	
+	public WebElement getElement() {
+		if (element == null) {
+			element = get();
+		}
+		return element;
+	}
+
+}

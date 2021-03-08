@@ -1,0 +1,71 @@
+package br.com.teste.mercadoeletronico.config;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class Utils extends Driver{
+	
+	private WebElement webElement = null;
+	private WebElement element = null;
+	private By by = null;
+	
+	
+	public WebElement get(By by) {
+		if (webElement == null) {
+			return Driver.getDriver().findElement(by);
+		}
+		return webElement.findElement(by);
+	}
+	
+	public WebElement getElement() {
+		if (element == null) {
+			element = get(by);
+		}
+		return element;
+	}
+	
+	public void sendKeys(CharSequence... value) {
+		getElement().sendKeys(value);
+	}
+
+	public String getText() {
+		return getElement().getText();
+	}
+
+	public void click() {
+		getElement().click();
+	}
+
+	public String getAttribute(String value) {
+		return getElement().getAttribute(value);
+	}
+
+	public boolean isEnabled() {
+		return getElement().isEnabled();
+	}
+
+	public boolean isDisplayed() {
+		return getElement().isDisplayed();
+	}
+
+	public boolean isSelected() {
+		return getElement().isSelected();
+	}
+
+	public void select(String value) {
+		Select select = new Select(getElement());
+		select.selectByVisibleText(value);
+	}
+	
+	public Utils waitVisibleElement() {
+		element = Driver.waitVisibleElement(by);
+		return this;
+	}
+
+	public Utils waitClickableElement() {
+		element = Driver.waitClickableElement(by);
+		return this;
+	}
+	
+}

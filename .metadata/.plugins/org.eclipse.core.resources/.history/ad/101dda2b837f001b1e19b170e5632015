@@ -1,0 +1,16 @@
+package br.com.teste.mercadoeletronico.config;
+
+public class BaseTest {
+	
+	@Before
+	public void abreNavegador() {
+		Driver.abreNavegador();
+		 
+	}
+
+	@After
+	public void fechaNavegador() {
+		Driver.fechaNavegador();
+	}
+
+}

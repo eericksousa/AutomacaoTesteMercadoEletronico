@@ -1,0 +1,20 @@
+package br.com.teste.mercadoeletronico.runner;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.CucumberOptions.SnippetType;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "src/test/resources/feature", 
+				monochrome = true,
+				glue = {"br.com.teste.mercadoeletronico.steps" }, 
+				plugin = { "pretty", "html:target/report-html", "json:target/report.json" }, 
+				tags = "", 
+				snippets = SnippetType.CAMELCASE
+				)
+
+public class Runner {
+
+}

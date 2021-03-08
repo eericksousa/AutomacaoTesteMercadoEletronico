@@ -1,0 +1,11 @@
+package br.com.teste.mercadoeletronico.config;
+
+import org.openqa.selenium.WebDriver;
+
+public class BasePage extends Driver{
+	
+	public BasePage(WebDriver driver) {
+		getDriver();
+	}
+
+}

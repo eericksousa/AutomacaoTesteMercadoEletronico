@@ -1,0 +1,12 @@
+package br.com.teste.mercadoeletronico.pages;
+
+import org.openqa.selenium.By;
+
+public class HomePage {
+	
+	By btnSignIn = By.xpath("//*[@class='login']");
+	By txtFieldEmailAddress = By.xpath("//*[@id='email']");
+	
+	
+
+}
