@@ -1,47 +1,45 @@
 package br.com.teste.mercadoeletronico.steps;
 
-import br.com.teste.mercadoeletronico.config.BaseTest;
 import br.com.teste.mercadoeletronico.logics.HomePageLogic;
 import br.com.teste.mercadoeletronico.logics.LoginLogic;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
 
-public class MercadoEletronicoSteps extends BaseTest{
+public class MercadoEletronicoSteps {
 
 	LoginLogic loginLogic = new LoginLogic();
 	HomePageLogic hpLogic = new HomePageLogic();
 
 	@Dado("que estou na pagina inicial do site")
 	public void queEstouNaPaginaInicialDoSite() {
-		
-		//loginLogic.siteTeste("http://automationpractice.com/index.php");
-		//loginLogic.validaPaginaInicial();
+		hpLogic.siteTeste("http://automationpractice.com/index.php");
+		hpLogic.validaPaginaInicial();
 	}
 
 	@Quando("clico em Sign In")
-	public void clico_em_sign_in() {
-		
+	public void clicoEmSignIn() {
+		loginLogic.clicaBtnSignIn();
 	}
 
 	@Quando("clico no campo de Email address")
-	public void clico_no_campo_de_email_address() {
-		throw new io.cucumber.java.PendingException();
+	public void clicoNoCampoEmailAddress() {
+		loginLogic.clicaCampoEmail();
 	}
 
 	@Quando("digito o email {string} para login")
-	public void digito_o_email_para_login(String string) {
-		throw new io.cucumber.java.PendingException();
+	public void digitoEmailParaLogin(String email) {
+		loginLogic.digitaEmail(email);
 	}
 
 	@Quando("digito a senha {string} para login")
-	public void digito_a_senha_para_login(String string) {
-		throw new io.cucumber.java.PendingException();
+	public void digito_a_senha_para_login(String senha) {
+		loginLogic.digitaCampoSenha(senha);
 	}
 
-	@Entao("valido a pagina inicial com sucesso")
+	@Entao("valido a pagina inicial de login com sucesso")
 	public void valido_a_pagina_inicial_com_sucesso() {
-		throw new io.cucumber.java.PendingException();
+		
 	}
 
 	@Entao("valido a mensagem de login incorreto")

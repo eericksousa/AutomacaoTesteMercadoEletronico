@@ -1,0 +1,20 @@
+package br.com.teste.mercadoeletronico.steps;
+
+import br.com.teste.mercadoeletronico.config.Driver;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+public class BaseSteps {
+	
+	@Before
+	public void abreNavegador() {
+		Driver.abreNavegador();
+
+	}
+
+	@After
+	public void fechaNavegador() {
+		Driver.fechaNavegador();
+	}
+
+}

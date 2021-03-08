@@ -1,0 +1,31 @@
+package br.com.teste.mercadoeletronico.logics;
+
+import br.com.teste.mercadoeletronico.config.Utils;
+import br.com.teste.mercadoeletronico.pages.LoginPage;
+
+public class LoginLogic extends Utils {
+
+	Utils utils = new Utils();
+	LoginPage loginPage = new LoginPage();
+
+	public void clicaBtnSignIn() {
+		Utils.waitClickableElement(loginPage.getBtnSignIn()).click();
+	}
+
+	public void clicaCampoEmail() {
+		Utils.waitClickableElement(loginPage.getTxtFieldEmailAddress()).click();
+	}
+	
+	public void digitaEmail(String email) {
+		Utils.waitClickableElement(loginPage.getBtnSignIn()).click();
+		utils.click(loginPage.getTxtFieldEmailAddress());
+		utils.sendKeys(email);
+	}
+	
+	public void digitaCampoSenha(String senha) {
+		utils.click(loginPage.getTxtFieldPassword());
+		utils.sendKeys(senha);
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package br.com.teste.mercadoeletronico.pages;
+
+import org.openqa.selenium.By;
+
+public class HomePagePage {
+	
+	private By logoHomePage = By.name("My Store");
+	
+	public By getHomePage() {
+		return logoHomePage;
+	}
+
+}

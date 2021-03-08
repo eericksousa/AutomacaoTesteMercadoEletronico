@@ -1,21 +1,30 @@
 package br.com.teste.mercadoeletronico.logics;
 
-import org.junit.Assert;
-
-import br.com.teste.mercadoeletronico.config.Driver;
 import br.com.teste.mercadoeletronico.config.Utils;
-import br.com.teste.mercadoeletronico.pages.HomePagePage;
+import br.com.teste.mercadoeletronico.pages.LoginPage;
 
 public class LoginLogic extends Utils {
 
-	HomePagePage hpPage = new HomePagePage();
-	
-	public void siteTeste(String url) {
-		Driver.setUrl(url);
+	Utils utils = new Utils();
+	LoginPage loginPage = new LoginPage();
+
+	public void clicaBtnSignIn() {
+		Utils.waitClickableElement(loginPage.getBtnSignIn()).click();
+	}
+
+	public void clicaCampoEmail() {
+		Utils.waitClickableElement(loginPage.getTxtFieldEmailAddress()).click();
 	}
 	
-	public void validaPaginaInicial() {
-		Assert.assertEquals("My Store", hpPage.getHomePage());
+	public void digitaEmail(String email) {
+		Utils.waitClickableElement(loginPage.getTxtFieldEmailAddress()).click();
+		Utils.getElement(loginPage.getTxtFieldEmailAddress()).sendKeys(email);
 	}
+	
+	public void digitaCampoSenha(String senha) {
+		Utils.waitClickableElement(loginPage.getTxtFieldPassword()).click();
+		Utils.getElement(loginPage.getTxtFieldEmailAddress()).sendKeys(senha);
+	}
+	
 	
 }

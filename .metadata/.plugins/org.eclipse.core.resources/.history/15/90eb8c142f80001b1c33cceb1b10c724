@@ -1,0 +1,25 @@
+package br.com.teste.mercadoeletronico.pages;
+
+import org.openqa.selenium.By;
+
+import br.com.teste.mercadoeletronico.config.Driver;
+import br.com.teste.mercadoeletronico.config.Utils;
+
+public class LoginPage extends Utils {
+
+	public By btnSignIn = getDriver().findElement("//*[contains(@text,'Log in to your customer account')]");
+	public By txtFieldEmailAddress = By.xpath("//*[@id='email']");
+	public By txtFieldPassword = By.xpath("//*[@id='passwd']");
+	
+	public By getBtnSignIn() {
+		return btnSignIn;
+	}
+	
+	public By getTxtFieldEmailAddress() {
+		return txtFieldEmailAddress;
+	}
+	
+	public By getTxtFieldPassword() {
+		return txtFieldPassword;
+	}
+}

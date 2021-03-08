@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 
 public class LoginPage {
 
-	private By btnSignIn = By.xpath("//*[@class='login']");
-	private By txtFieldEmailAddress = By.xpath("//*[@id='email']");
-	private By txtFieldPassword = By.xpath("//*[@id='passwd']");
+	public By btnSignIn = By.xpath("//a[contains(text(),'Sign in')]");
+	public By txtFieldEmailAddress = By.id("email");
+	public By txtFieldPassword = By.id("passwd");
 	
 	public By getBtnSignIn() {
 		return btnSignIn;

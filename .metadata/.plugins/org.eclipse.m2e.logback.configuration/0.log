@@ -2711,3 +2711,152 @@ java.io.FileNotFoundException: C:\Users\erick\.m2\repository\io\cucumber\docstri
 2021-03-08 02:19:04,343 [Worker-382: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
 2021-03-08 02:19:04,343 [Worker-382: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-03-08 02:19:04,343 [Worker-382: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 08:42:51,458 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-08 10:37:18,272 [Worker-32: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:37:18,272 [Worker-32: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 10:37:18,273 [Worker-32: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:37:18,276 [Worker-32: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 10:42:19,401 [Worker-39: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:42:19,401 [Worker-39: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 10:42:19,402 [Worker-39: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:42:19,405 [Worker-39: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 10:42:49,969 [Worker-37: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:42:49,969 [Worker-37: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 10:42:49,969 [Worker-37: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:42:49,970 [Worker-37: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 10:43:00,455 [Worker-35: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:43:00,455 [Worker-35: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 10:43:00,456 [Worker-35: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:43:00,456 [Worker-35: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 10:43:54,370 [Worker-39: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:43:54,371 [Worker-39: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 10:43:54,371 [Worker-39: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 10:43:54,372 [Worker-39: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 11:03:25,996 [Worker-34: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:03:25,997 [Worker-34: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 11:03:25,997 [Worker-34: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:03:25,998 [Worker-34: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 11:13:50,603 [Worker-50: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:13:50,604 [Worker-50: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 11:13:50,604 [Worker-50: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:13:50,605 [Worker-50: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 11:14:14,421 [Worker-47: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:14:14,421 [Worker-47: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 11:14:14,422 [Worker-47: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:14:14,423 [Worker-47: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 11:15:34,707 [Worker-47: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:15:34,707 [Worker-47: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 11:15:34,708 [Worker-47: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:15:34,708 [Worker-47: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 11:46:44,779 [Worker-57: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:46:44,780 [Worker-57: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 11:46:44,780 [Worker-57: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:46:44,781 [Worker-57: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 11:57:01,073 [Worker-57: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:57:01,073 [Worker-57: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 11:57:01,073 [Worker-57: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 11:57:01,074 [Worker-57: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 12:00:51,695 [Worker-64: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:00:51,696 [Worker-64: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 12:00:51,697 [Worker-64: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:00:51,697 [Worker-64: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 12:05:26,438 [Worker-64: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:05:26,438 [Worker-64: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 12:05:26,439 [Worker-64: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:05:26,440 [Worker-64: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 12:10:11,843 [Worker-70: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:10:11,843 [Worker-70: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 12:10:11,843 [Worker-70: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:10:11,844 [Worker-70: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 12:10:58,326 [Worker-72: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:10:58,326 [Worker-72: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 12:10:58,327 [Worker-72: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:10:58,327 [Worker-72: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 12:11:37,877 [Worker-73: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:11:37,877 [Worker-73: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 12:11:37,878 [Worker-73: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:11:37,879 [Worker-73: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 12:22:36,136 [Worker-78: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:22:36,136 [Worker-78: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 12:22:36,136 [Worker-78: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:22:36,137 [Worker-78: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 12:23:37,702 [Worker-75: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:23:37,703 [Worker-75: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 12:23:37,703 [Worker-75: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 12:23:37,704 [Worker-75: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:11:29,747 [Worker-83: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:11:29,747 [Worker-83: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:11:29,748 [Worker-83: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:11:29,748 [Worker-83: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:16:41,124 [Worker-94: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:16:41,125 [Worker-94: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:16:41,125 [Worker-94: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:16:41,126 [Worker-94: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:20:07,323 [Worker-98: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:20:07,323 [Worker-98: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:20:07,324 [Worker-98: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:20:07,324 [Worker-98: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:25:02,907 [Worker-93: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:25:02,908 [Worker-93: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:25:02,908 [Worker-93: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:25:02,908 [Worker-93: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:34:00,639 [Worker-116: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:34:00,639 [Worker-116: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:34:00,640 [Worker-116: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:34:00,640 [Worker-116: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:35:28,119 [Worker-121: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:35:28,119 [Worker-121: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:35:28,120 [Worker-121: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:35:28,120 [Worker-121: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:36:41,474 [Worker-93: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:36:41,474 [Worker-93: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:36:41,474 [Worker-93: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:36:41,475 [Worker-93: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:39:00,610 [Worker-116: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:39:00,610 [Worker-116: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:39:00,611 [Worker-116: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:39:00,611 [Worker-116: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:41:29,175 [Worker-127: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:41:29,175 [Worker-127: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:41:29,175 [Worker-127: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:41:29,176 [Worker-127: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:42:12,498 [Worker-131: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:42:12,498 [Worker-131: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:42:12,499 [Worker-131: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:42:12,499 [Worker-131: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:47:18,064 [Worker-127: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:47:18,064 [Worker-127: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:47:18,065 [Worker-127: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:47:18,065 [Worker-127: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 13:58:06,669 [Worker-142: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:58:06,669 [Worker-142: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 13:58:06,670 [Worker-142: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 13:58:06,670 [Worker-142: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 14:00:11,598 [Worker-144: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:00:11,598 [Worker-144: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 14:00:11,598 [Worker-144: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:00:11,599 [Worker-144: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 14:00:41,624 [Worker-141: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:00:41,624 [Worker-141: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 14:00:41,625 [Worker-141: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:00:41,625 [Worker-141: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 14:10:11,246 [Worker-148: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:10:11,247 [Worker-148: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 14:10:11,247 [Worker-148: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:10:11,248 [Worker-148: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 14:16:27,279 [Worker-152: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:16:27,279 [Worker-152: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 14:16:27,279 [Worker-152: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:16:27,280 [Worker-152: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 14:30:29,862 [Worker-163: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:30:29,862 [Worker-163: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 14:30:29,863 [Worker-163: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:30:29,863 [Worker-163: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 14:31:23,370 [Worker-165: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:31:23,370 [Worker-165: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 14:31:23,370 [Worker-165: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:31:23,370 [Worker-165: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-08 14:39:12,867 [Worker-162: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:39:12,867 [Worker-162: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\workspaces\TesteMercadoEletronico\AutomacaoTesteMercadoEletronico\src\main\resources
+2021-03-08 14:39:12,867 [Worker-162: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-08 14:39:12,868 [Worker-162: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

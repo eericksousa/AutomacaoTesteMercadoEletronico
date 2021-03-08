@@ -6,25 +6,34 @@ Funcionalidade: Realizacao de login de usuario
     Dado que estou na pagina inicial do site
     Quando clico em Sign In
     E clico no campo de Email address
-    E digito o email "<login>" para login
+    E digito o email "<email>" para login
     E digito a senha "<senha>" para login
     E clico em Sign In
-    Entao valido a pagina inicial com sucesso
+    Entao valido a pagina inicial de login com sucesso
 
-# Cenario: Verificar se o site Automation Pratice esta efetuando o login invalido
-#    Dado que estou na pagina inicial do site
-#    Quando clico em Sign In
-#    E clico no campo de Email address
-#    E digito o email "<login>" para login
-#    E digito a senha "<senha>" para login
-#    E clico em Sign In
-#    Entao valido a mensagem de login incorreto
+ Cenario: Verificar se o site Automation Pratice esta efetuando o login invalido
+    Dado que estou na pagina inicial do site
+    Quando clico em Sign In
+    E clico no campo de Email address
+    E digito o email "<email>" para login
+    E digito a senha "<senha>" para login
+    E clico em Sign In
+    Entao valido a mensagem de login incorreto
 
-#  Cenario: Verificar se o site Automation Pratice esta efetuando o login com dados em branco
-#    Dado que estou na pagina inicial do site
-#    Quando clico em Sign In
-#    E clico no campo de Email address
-#    E digito o email "<login>" para login
-#    E digito a senha "<senha>" para login
-#    E clico em Sign In
-#    Entao valido a mensagem de login incorreto
+  Cenario: Verificar se o site Automation Pratice esta efetuando o login com dados em branco
+    Dado que estou na pagina inicial do site
+    Quando clico em Sign In
+    E clico no campo de Email address
+    E digito o email "<email>" para login
+    E digito a senha "<senha>" para login
+    E clico em Sign In
+    Entao valido a mensagem de login incorreto
+
+Exemplos: 
+| email 						      					  | senha 					|
+| "conta.teste.automacao@hotmail.com" | "Automacao@123 "|
+
+
+
+
+ 

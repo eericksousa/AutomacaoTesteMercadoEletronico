@@ -1,0 +1,29 @@
+package br.com.teste.mercadoeletronico.logics;
+
+import br.com.teste.mercadoeletronico.config.Driver;
+import br.com.teste.mercadoeletronico.config.Utils;
+import br.com.teste.mercadoeletronico.pages.HomePagePage;
+
+public class LoginLogic extends Driver {
+
+	Utils utils = new Utils();
+	HomePagePage hpPage = new HomePagePage();
+
+	public void siteTeste(String url) {
+		Driver.setUrl(url);
+	}
+
+	public void validaPaginaInicial() {
+		String homePage = "My Store";
+
+		Utils.waitVisibleElement(hpPage.getHomePage());
+
+		if (utils.getDriver().getTitle().equalsIgnoreCase((homePage)))
+			System.out.println();
+		else
+			System.out.println(" Não está na pagina inicial do site");
+
+		
+		
+	}
+}

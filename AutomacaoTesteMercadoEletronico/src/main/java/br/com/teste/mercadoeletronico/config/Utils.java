@@ -1,38 +1,59 @@
 package br.com.teste.mercadoeletronico.config;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class Utils extends Driver{
 	
-	private WebElement webElement = null;
-	private WebElement element = null;
-	private By by = null;
+	private static WebElement webElement = null;
+	private static WebElement element = null;
+	private static By by = null;
 	
 	
-	public WebElement get(By by) {
+	public static WebElement get(By by) {
 		if (webElement == null) {
 			return Driver.getDriver().findElement(by);
 		}
 		return webElement.findElement(by);
 	}
 	
-	public WebElement getElement() {
+	public static WebElement getElement() {
 		if (element == null) {
 			element = get(by);
 		}
 		return element;
 	}
 	
+	public static WebElement getElement(By by) {
+		if (element == null) {
+			element = get(by);
+		}
+		return element;
+	}
+	
+	public List<WebElement> getElements() {
+		return Driver.getDriver().findElements(by);
+	}
+	
 	public void sendKeys(CharSequence... value) {
 		getElement().sendKeys(value);
 	}
-
-	public String getText() {
+	
+	public static String getText() {
+		return getElement().getText();
+	}
+	
+	public static String getText(By by) {
 		return getElement().getText();
 	}
 
+	public void click(By by) {
+		getElement().click();
+	}
+	
 	public void click() {
 		getElement().click();
 	}

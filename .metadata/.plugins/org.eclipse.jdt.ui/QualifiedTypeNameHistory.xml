@@ -18,10 +18,8 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="br.com.teste.mercadoeletronico.logics.LoginLogic"/>
-<fullyQualifiedTypeName name="br.com.teste.mercadoeletronico.config.Utils"/>
 <fullyQualifiedTypeName name="br.com.teste.mercadoeletronico.pages.HomePagePage"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
-<fullyQualifiedTypeName name="br.com.teste.mercadoeletronico.config.Driver"/>
 <fullyQualifiedTypeName name="br.com.teste.mercadoeletronico.steps.BaseTest"/>
 <fullyQualifiedTypeName name="io.cucumber.java.Before"/>
 <fullyQualifiedTypeName name="io.cucumber.java.After"/>
@@ -32,4 +30,8 @@
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.teste.mercadoeletronico.steps.BaseSteps"/>
+<fullyQualifiedTypeName name="br.com.teste.mercadoeletronico.config.Utils"/>
+<fullyQualifiedTypeName name="br.com.teste.mercadoeletronico.config.Driver"/>
 </qualifiedTypeNameHistroy>

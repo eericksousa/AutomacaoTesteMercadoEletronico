@@ -1,0 +1,23 @@
+package br.com.teste.mercadoeletronico.logics;
+
+import br.com.teste.mercadoeletronico.config.Driver;
+import br.com.teste.mercadoeletronico.config.Utils;
+
+public class HomePageLogic extends Utils{
+	
+	public void siteTeste(String url) {
+		Driver.setUrl(url);
+	}
+
+	public void validaPaginaInicial() {
+		String homePage = "My Store";
+
+		Utils.waitVisibleElement(hpPage.getHomePage());
+
+		if (Utils.getDriver().getTitle().equalsIgnoreCase((homePage)))
+			System.out.println(" >>> Pagina Inicial <<<" + homePage);
+		else
+			System.out.println(" Não está na pagina inicial do site" + homePage);
+	}
+
+}

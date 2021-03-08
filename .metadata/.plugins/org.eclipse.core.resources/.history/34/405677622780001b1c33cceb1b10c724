@@ -1,0 +1,18 @@
+package br.com.teste.mercadoeletronico.logics;
+
+import br.com.teste.mercadoeletronico.config.Driver;
+import br.com.teste.mercadoeletronico.config.Utils;
+import br.com.teste.mercadoeletronico.pages.HomePagePage;
+
+public class LoginLogic extends Utils {
+
+	Utils utils = new Utils();
+	LogicPage logicPage = new LogicPage();
+
+
+	
+	public void clicaBtnSignIn() {
+		utils.click(by);
+	}
+	
+}

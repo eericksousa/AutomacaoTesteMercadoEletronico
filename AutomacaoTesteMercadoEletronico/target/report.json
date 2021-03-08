@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-08T17:39:13.686Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1846000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.teste.mercadoeletronico.steps.BaseSteps.abreNavegador()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verificar se o site Automation Pratice esta efetuando o login com sucesso",
+        "description": "",
+        "id": "realizacao-de-login-de-usuario;verificar-se-o-site-automation-pratice-esta-efetuando-o-login-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 618000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.teste.mercadoeletronico.steps.BaseSteps.fechaNavegador()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4373000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que estou na pagina inicial do site",
+            "match": {
+              "location": "br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.queEstouNaPaginaInicialDoSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4290000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Sign In",
+            "match": {
+              "location": "br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.clicoEmSignIn()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico no campo de Email address",
+            "match": {
+              "location": "br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.clicoNoCampoEmailAddress()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "digito o email \"\u003cemail\u003e\" para login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 15
+                }
+              ],
+              "location": "br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.digitoEmailParaLogin(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "digito a senha \"\u003csenha\u003e\" para login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003csenha\u003e\"",
+                  "offset": 15
+                }
+              ],
+              "location": "br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.digito_a_senha_para_login(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3301000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em Sign In",
+            "match": {
+              "location": "br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.clicoEmSignIn()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "valido a pagina inicial de login com sucesso",
+            "match": {
+              "location": "br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.valido_a_pagina_inicial_com_sucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Realizacao de login de usuario",
+    "description": "",
+    "id": "realizacao-de-login-de-usuario",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/feature/testeLogin.feature",
+    "tags": []
+  }
+]

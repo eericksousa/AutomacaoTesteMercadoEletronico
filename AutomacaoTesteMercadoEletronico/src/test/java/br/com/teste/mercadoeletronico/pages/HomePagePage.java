@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class HomePagePage {
 	
-	private By logoHomePage = By.xpath("//*[@id='header_logo']");
+	public By logoHomePage = By.xpath("//*[@id='header_logo']/a");
 	
 	public By getHomePage() {
 		return logoHomePage;
