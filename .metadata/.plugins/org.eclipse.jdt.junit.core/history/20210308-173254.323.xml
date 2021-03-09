@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="AutomacaoTesteMercadoEletronico" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.teste.mercadoeletronico.runner.Runner" time="9.79">
+    <testsuite name="Realizacao de login de usuario" time="9.79">
+      <testcase name="Verificar se o site Automation Pratice esta efetuando o login com sucesso" classname="Realizacao de login de usuario" time="9.79">
+        <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+&#13;
+	at br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.valido_a_pagina_inicial_com_sucesso(MercadoEletronicoSteps.java:42)&#13;
+	at ✽.valido a pagina inicial de login com sucesso(file:///C:/dev/workspaces/TesteMercadoEletronico/AutomacaoTesteMercadoEletronico/src/test/resources/feature/testeLogin.feature:12)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,13 @@
+package br.com.teste.mercadoeletronico.steps;
+
+import br.com.teste.mercadoeletronico.logics.HomePageLogic;
+import br.com.teste.mercadoeletronico.logics.LoginLogic;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Quando;
+
+public class MercadoEletronicoSteps {
+
+
+
+}

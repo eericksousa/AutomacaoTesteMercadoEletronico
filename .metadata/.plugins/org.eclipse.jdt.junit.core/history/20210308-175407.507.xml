@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="AutomacaoTesteMercadoEletronico" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.teste.mercadoeletronico.runner.Runner" time="23.763">
+    <testsuite name="Realizacao de login de usuario" time="23.763">
+      <testcase name="Verificar se o site Automation Pratice esta efetuando o login com sucesso" classname="Realizacao de login de usuario" time="23.763">
+        <error>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'My Account')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
+System info: host: 'DESKTOP-PHK04V4', ip: '192.168.0.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\erick\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6e16553015c7b936d5f1245f62c25f1&#13;
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)&#13;
+	at br.com.teste.mercadoeletronico.config.Driver.waitClickableElement(Driver.java:50)&#13;
+	at br.com.teste.mercadoeletronico.logics.LoginLogic.validaPaginaMinhaConta(LoginLogic.java:35)&#13;
+	at br.com.teste.mercadoeletronico.steps.MercadoEletronicoSteps.valido_a_pagina_inicial_com_sucesso(MercadoEletronicoSteps.java:47)&#13;
+	at ✽.valido a pagina inicial de login com sucesso(file:///C:/dev/workspaces/TesteMercadoEletronico/AutomacaoTesteMercadoEletronico/src/test/resources/feature/testeLogin.feature:12)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

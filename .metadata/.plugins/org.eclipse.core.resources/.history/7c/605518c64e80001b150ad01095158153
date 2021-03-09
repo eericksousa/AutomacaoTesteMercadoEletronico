@@ -1,0 +1,57 @@
+package br.com.teste.mercadoeletronico.steps;
+
+import br.com.teste.mercadoeletronico.logics.HomePageLogic;
+import br.com.teste.mercadoeletronico.logics.LoginLogic;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Quando;
+
+public class MercadoEletronicoSteps {
+
+	LoginLogic loginLogic = new LoginLogic();
+	HomePageLogic hpLogic = new HomePageLogic();
+
+	@Dado("que estou na pagina inicial do site")
+	public void queEstouNaPaginaInicialDoSite() {
+		hpLogic.siteTeste("http://automationpractice.com/index.php");
+		hpLogic.validaPaginaInicial();
+	}
+
+	@Quando("clico em Sign In")
+	public void clicoEmSignIn() {
+		loginLogic.clicaBtnSignIn();
+	}
+
+	@Quando("clico no campo de Email address")
+	public void clicoNoCampoEmailAddress() {
+		loginLogic.clicaCampoEmail();
+	}
+
+	@Quando("digito o email {string} para login")
+	public void digitoEmailParaLogin(String email) {
+		loginLogic.digitaEmail(email);
+	}
+
+	@Quando("digito a senha {string} para senha")
+	public void digito_a_senha_para_senha(String senha) {
+		loginLogic.digitaCampoSenha(senha);
+		loginLogic.clicaBtnSignIn();
+	}
+	
+	@Quando("e clico em Entrar")
+	public void digito_a_senha_para_senha(String senha) {
+		loginLogic.digitaCampoSenha(senha);
+		loginLogic.clicaBtnSignIn();
+	}
+
+	@Entao("valido a pagina inicial de login com sucesso")
+	public void valido_a_pagina_inicial_com_sucesso() {
+		loginLogic.validaPaginaMinhaConta();
+	}
+
+	@Entao("valido a mensagem de login incorreto")
+	public void valido_a_mensagem_de_login_incorreto() {
+		
+	}
+
+}

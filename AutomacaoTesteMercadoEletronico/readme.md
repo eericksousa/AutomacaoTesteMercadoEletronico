@@ -2,12 +2,26 @@ Teste de Conhecimento - MERCADO ELETRONICO
 
 Automation Challenge
 
-Ferramentas Necessarias
+FERRAMENTAS NECESSÁRIAS: 
 
-- Java
-- Eclipse
+- Java 8 SE 1.8
+- Eclipse IDE 2020-06
 - Maven
-- Selenium
-- Cucumber
-- JUnit
-- Logging.log4j
+- Selenium 4.0
+- Cucumber 6.10
+- JUnit 5.7.1
+- Logging.log4j 2.14 #NãoImplementadoAinda
+
+RODANDO O PROJETO: 
+
+Abra a pasta "br.com.teste.mercadoeletronico.runner",
+abra a pasta "Runner"
+execute a classe.
+
+
+PADRÕES DE PROJETO UTILIZADOS:
+
+Page Object
+Singleton
+
+

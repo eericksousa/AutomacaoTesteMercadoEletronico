@@ -32,19 +32,24 @@ public class MercadoEletronicoSteps {
 		loginLogic.digitaEmail(email);
 	}
 
-	@Quando("digito a senha {string} para login")
-	public void digito_a_senha_para_login(String senha) {
+	@Quando("digito a senha {string} para senha")
+	public void digitoSenha(String senha) {
 		loginLogic.digitaCampoSenha(senha);
+	}
+
+	@Dado("clico em entrar")
+	public void clico_em_entrar() {
+		loginLogic.clicaBtnEntrar();
 	}
 
 	@Entao("valido a pagina inicial de login com sucesso")
 	public void valido_a_pagina_inicial_com_sucesso() {
-		
+		loginLogic.validaPaginaMinhaConta();
 	}
 
 	@Entao("valido a mensagem de login incorreto")
 	public void valido_a_mensagem_de_login_incorreto() {
-		throw new io.cucumber.java.PendingException();
+		loginLogic.validaMensagemLoginIncorreto();
 	}
 
 }

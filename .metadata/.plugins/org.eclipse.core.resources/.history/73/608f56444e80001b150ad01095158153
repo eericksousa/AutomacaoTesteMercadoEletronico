@@ -1,0 +1,27 @@
+package br.com.teste.mercadoeletronico.pages;
+
+import org.openqa.selenium.By;
+
+public class LoginPage {
+
+	public By btnSignIn = By.xpath("//a[contains(text(),'Sign in')]");
+	public By txtFieldEmailAddress = By.id("email");
+	public By txtFieldPassword = By.id("passwd");
+	public By txtMyAccount = By.xpath("//a[contains(text(),'My Account')]");
+
+	public By getBtnSignIn() {
+		return btnSignIn;
+	}
+
+	public By getTxtFieldEmailAddress() {
+		return txtFieldEmailAddress;
+	}
+
+	public By getTxtFieldPassword() {
+		return txtFieldPassword;
+	}
+
+	public By getValidaPaginaConta() {
+		return txtMyAccount;
+	}
+}

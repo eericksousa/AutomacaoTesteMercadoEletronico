@@ -7,16 +7,26 @@ public class LoginPage {
 	public By btnSignIn = By.xpath("//a[contains(text(),'Sign in')]");
 	public By txtFieldEmailAddress = By.id("email");
 	public By txtFieldPassword = By.id("passwd");
-	
+	public By txtMyAccount = By.xpath("//span[contains(text(),'My account')]");
+	public By btnSubmitLogin = By.id("SubmitLogin");
+
 	public By getBtnSignIn() {
 		return btnSignIn;
 	}
-	
+
 	public By getTxtFieldEmailAddress() {
 		return txtFieldEmailAddress;
 	}
-	
+
 	public By getTxtFieldPassword() {
 		return txtFieldPassword;
+	}
+
+	public By getValidaPaginaConta() {
+		return txtMyAccount;
+	}
+	
+	public By getSubmitLogin() {
+		return btnSubmitLogin;
 	}
 }

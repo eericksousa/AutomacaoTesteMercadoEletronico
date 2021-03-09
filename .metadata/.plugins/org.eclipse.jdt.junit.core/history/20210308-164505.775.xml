@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="AutomacaoTesteMercadoEletronico" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.teste.mercadoeletronico.runner.Runner" time="11.789">
+    <testsuite name="Realizacao de login de usuario" time="11.789">
+      <testcase name="Verificar se o site Automation Pratice esta efetuando o login com sucesso" classname="Realizacao de login de usuario" time="11.789"/>
+    </testsuite>
+  </testsuite>
+</testrun>

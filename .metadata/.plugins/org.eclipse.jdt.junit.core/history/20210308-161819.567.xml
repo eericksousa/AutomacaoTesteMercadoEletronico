@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="AutomacaoTesteMercadoEletronico" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.teste.mercadoeletronico.runner.Runner" time="2.466">
+    <testsuite name="Realizacao de login de usuario" time="2.466">
+      <testcase name="Verificar se o site Automation Pratice esta efetuando o login com sucesso" classname="Realizacao de login de usuario" time="2.466">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'que estou na pagina inicial do site' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Dado("que estou na pagina inicial do site")
+public void queEstouNaPaginaInicialDoSite() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("clico em Sign In")
+public void clicoEmSignIn() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("clico no campo de Email address")
+public void clicoNoCampoDeEmailAddress() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("digito o email {string} para login")
+public void digitoOEmailParaLogin(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("digito a senha {string} para login")
+public void digitoASenhaParaLogin(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Entao("valido a pagina inicial de login com sucesso")
+public void validoAPaginaInicialDeLoginComSucesso() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -15,16 +15,28 @@ public class LoginLogic extends Utils {
 	public void clicaCampoEmail() {
 		Utils.waitClickableElement(loginPage.getTxtFieldEmailAddress()).click();
 	}
-	
+
 	public void digitaEmail(String email) {
 		Utils.waitClickableElement(loginPage.getTxtFieldEmailAddress()).click();
 		Utils.getElement(loginPage.getTxtFieldEmailAddress()).sendKeys(email);
 	}
-	
+
 	public void digitaCampoSenha(String senha) {
+		
 		Utils.waitClickableElement(loginPage.getTxtFieldPassword()).click();
-		Utils.getElement(loginPage.getTxtFieldEmailAddress()).sendKeys(senha);
+		Utils.getElement(loginPage.getTxtFieldPassword()).sendKeys(senha);
 	}
-	
+
+	public void clicaBtnEntrar() {
+		utils.click(loginPage.getSubmitLogin());
+	}
+
+	public void validaPaginaMinhaConta() {
+		Utils.waitClickableElement(loginPage.getValidaPaginaConta());
+	}
+
+	public void validaMensagemLoginIncorreto() {
+		Utils.waitClickableElement(loginPage.getValidaPaginaConta());
+	}
 	
 }
